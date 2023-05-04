@@ -34,7 +34,7 @@ ul {
 
 
 
-.hero, .feature, .team {
+.hero, .feature, .team, .customers {
     padding: 120px 0;
 }
 
@@ -140,8 +140,16 @@ list-style: none;
     /* HERO */
 .hero {
     background: #2E2F42;
-    padding-top: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero.png);
     padding-bottom: 188px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container {
@@ -215,6 +223,40 @@ letter-spacing: 0.02em;
 color: #434455;
 
  }
+
+ .icons-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.list {
+    margin-bottom: 8px;
+}
+.icons-item {
+
+    
+}
+.icons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 264px;
+  
+
+}
+.icon-style {
+}
+
+.icon {
+    
+}
 
  /* WORK */
 .work {
@@ -308,9 +350,56 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 8px;
     
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.list {
+}
+
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+.link {
+}
+.socials-icon {
+}
+
+/* CUSTOMERS */
+
+.customers-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.customers-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    flex-grow: 0;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
 /* FOOTER */
 
 .footer {
