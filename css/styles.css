@@ -389,12 +389,14 @@ margin-bottom: 8px;
 
 .title {
 font-size: 36px;
-line-height: 40px;
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
+color: #2e2f42;
 }
+
 .clients-list {
     display: flex;
     align-items: center;
@@ -404,6 +406,7 @@ margin-bottom: 72px;
 .list {
 }
 .clients-item {
+
 }
 .clients-link {
     display: flex;
@@ -415,21 +418,19 @@ margin-bottom: 72px;
 
     width: 168px;
     height: 88px;
+
+    color: #8e8f99;
+
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border-color: #404BBF;
+  color: #404bbf;
 }
-
-.clients-icon:hover,
-.clients-icon:focus {
-    fill: #404BBF;
-
-}
-
 
 .customers-icon-logo {
+    fill: currentColor;
 }
 
 
