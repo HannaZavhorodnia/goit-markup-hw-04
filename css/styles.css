@@ -403,11 +403,7 @@ color: #2e2f42;
     gap: 24px;
 
 }
-.list {
-}
-.clients-item {
 
-}
 .clients-link {
     display: flex;
     align-items: center;
@@ -546,7 +542,7 @@ max-width: 264px;
 
 .sm-icon {
     fill:  #f4f4fd ;
-    
+
 }
 
 /*----------------------------------------PORTFOLIO--------------------------------------------- */
