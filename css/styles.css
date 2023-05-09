@@ -142,7 +142,7 @@ list-style: none;
 .hero {
     background: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero/hero.png);
+    url(../images/hero/hero.jpg);
     padding-bottom: 188px;
     background-position: center;
     background-repeat: no-repeat;
