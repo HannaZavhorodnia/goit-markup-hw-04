@@ -423,6 +423,10 @@ color: #2e2f42;
 
 }
 
+.clients-icon {
+    fill: currentColor;
+}
+
 .clients-link:hover,
 .clients-link:focus {
   border-color: #404BBF;
@@ -519,6 +523,7 @@ max-width: 264px;
 .footer-social-list {
     display: flex;
     gap: 16px;
+    list-style: none;
 
 }
 
