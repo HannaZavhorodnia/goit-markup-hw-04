@@ -200,7 +200,7 @@ cursor: pointer;
 list-style-type: none;
 display: flex;
 gap: 24px;
-margin-bottom: 8px;
+
 
 }
 
@@ -382,7 +382,7 @@ margin-bottom: 8px;
 }
 
 .socials-link:hover,
-:focus{
+.socials-link:focus{
     background-color: #404BBF;
 }
 
